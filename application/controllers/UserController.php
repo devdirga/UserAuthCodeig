@@ -8,4 +8,9 @@ class UserController extends CI_Controller
         $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         echo 'Selamat datang ' . $data['user']['name'];
     }
+
+    public function roles()
+    {
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+    }
 }
