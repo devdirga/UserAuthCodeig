@@ -16,7 +16,7 @@
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.0/examples/sign-in/signin.css" rel="stylesheet">
+    <link href="<?= base_url('assets/css/signin.css') ?>" rel="stylesheet">
 </head>
 
 <body class="text-center">
